@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="19830" started-at="2017-05-14T08:47:29Z" finished-at="2017-05-14T08:47:49Z">
+    <groups>
+    </groups>
+    <test name="FirefoxTest" duration-ms="97" started-at="2017-05-14T08:47:29Z" finished-at="2017-05-14T08:47:30Z">
+      <class name="base.Testcase">
+        <test-method status="FAIL" signature="beforeMethod(java.lang.String)[pri:0, instance:base.Testcase@3dd3bcd]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-05-14T14:17:29Z" finished-at="2017-05-14T14:17:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:199)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:109)
+	at org.openqa.selenium.firefox.GeckoDriverService.access$000(GeckoDriverService.java:37)
+	at org.openqa.selenium.firefox.GeckoDriverService$Builder.findDefaultExecutable(GeckoDriverService.java:95)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:296)
+	at org.openqa.selenium.firefox.FirefoxDriver.createCommandExecutor(FirefoxDriver.java:277)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:247)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:242)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:238)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:127)
+	at base.Testcase.beforeMethod(Testcase.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:653)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="SKIP" signature="testCase()[pri:0, instance:base.Testcase@3dd3bcd]" name="testCase" duration-ms="2" started-at="2017-05-14T14:17:30Z" finished-at="2017-05-14T14:17:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase -->
+        <test-method status="SKIP" signature="aftermethod()[pri:0, instance:base.Testcase@3dd3bcd]" name="aftermethod" is-config="true" duration-ms="0" started-at="2017-05-14T14:17:30Z" finished-at="2017-05-14T14:17:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+      </class> <!-- base.Testcase -->
+    </test> <!-- FirefoxTest -->
+    <test name="ChromeTest" duration-ms="19830" started-at="2017-05-14T08:47:29Z" finished-at="2017-05-14T08:47:49Z">
+      <class name="base.Testcase">
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:base.Testcase@50c87b21]" name="beforeMethod" is-config="true" duration-ms="8751" started-at="2017-05-14T14:17:29Z" finished-at="2017-05-14T14:17:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testCase()[pri:0, instance:base.Testcase@50c87b21]" name="testCase" duration-ms="10119" started-at="2017-05-14T14:17:38Z" finished-at="2017-05-14T14:17:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase -->
+        <test-method status="PASS" signature="aftermethod()[pri:0, instance:base.Testcase@50c87b21]" name="aftermethod" is-config="true" duration-ms="945" started-at="2017-05-14T14:17:48Z" finished-at="2017-05-14T14:17:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+      </class> <!-- base.Testcase -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- Suite -->
+</testng-results>
