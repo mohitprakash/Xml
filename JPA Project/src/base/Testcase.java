@@ -15,7 +15,7 @@ public class Testcase
 	public WebDriver driver;
 	@Parameters("browser")
 	@BeforeMethod
-	public void beforeMethod(String browser)
+	public void beforeMet(String browser)
 	{
 		if(browser.equalsIgnoreCase("Firefox"))
 		{
@@ -33,7 +33,7 @@ public class Testcase
 	@Test
 	public void testCase() throws InterruptedException
 	{
-		driver.findElement(By.className("gsfi")).sendKeys("Enter");
+		driver.findElement(By.className("gb_P")).click();
 		Thread.sleep(10000);
 	}
 	
